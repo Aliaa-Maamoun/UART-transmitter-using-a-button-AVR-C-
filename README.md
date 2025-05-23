@@ -24,12 +24,14 @@ This project demonstrates how to use UART communication on an AVR microcontrolle
 
 ## Circuit Setup
 
-ATmega328P           USB-TTL Adapter           Computer
-------------         ------------------        --------
-PD1 (TX)     ───────▶ RX                       COM Port
-PD0 (RX)     ◀─────── TX                       (optional)
-GND          ───────▶ GND                      GND
+| ATmega328P Pin | Connects To           | Description                        |
+|----------------|------------------------|------------------------------------|
+| PD0 (Pin 2)    | One side of a button   | Digital input with pull-up         |
+| GND            | Other side of button   | Button completes circuit to ground |
+| PD1 (TX, Pin 3)| USB-TTL RX             | UART Transmit line (to PC)         |
+| GND            | USB-TTL GND            | Common ground                      |
 
+---
 
 ### Button Wiring
 - Connect **one side** of a push-button to **PD0 (pin 2)**.
