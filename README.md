@@ -6,10 +6,10 @@ This project demonstrates how to use UART communication on an AVR microcontrolle
 
 ## Features
 
-1- UART transmission at 9600 baud
-2- Button input using internal pull-up resistor
-3- Periodic message sending every 500 ms
-4- Compatible with ATmega328P and other AVR chips
+- UART transmission at 9600 baud
+- Button input using internal pull-up resistor
+- Periodic message sending every 500 ms
+- Compatible with ATmega328P and other AVR chips
 
 ---
 
