@@ -13,12 +13,12 @@ This project demonstrates how to use UART communication on an AVR microcontrolle
 
 ---
 
-## Requirements
+## Technologies Used
 
-- AVR microcontroller (e.g., ATmega328P)
-- USB to UART converter or Arduino as Serial Monitor
-- AVR toolchain (e.g., `avr-gcc`, `avrdude`)
-- Serial terminal (e.g., PuTTY, Tera Term, Arduino Serial Monitor)
+- AVR Microcontroller
+- USB to UART Converter
+- AVR Toolchain
+- Serial Terminal Software (Microship studio)
 
 ---
 
